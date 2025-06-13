@@ -36,12 +36,14 @@ namespace KernelSemantico
             string input = @"I'm a vegan in search of new recipes. I love spicy food! 
             Can you give me a list of breakfast recipes that are vegan friendly?";
 
+
             //var result2 = await kernel.InvokeAsync(
             //    "ConversationSummaryPlugin",
             //    "GetConversationActionItems",
             //    new() { { "input", input } });
-
+            //
             //Console.WriteLine(result2);
+
 
             //var currentDay = await kernel.InvokeAsync("TimePlugin", "DayOfWeek");
             var answer = string.Concat(result.ToString(), "/n Today: "); // + result2);
